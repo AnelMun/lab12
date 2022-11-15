@@ -19,7 +19,7 @@ document.body.appendChild (h2)
 
 //Text 'In this task'
 let p1 = document.createElement ('p1')
-p1.innerHTML = 'In this task you have to reproduce this HTML page as is using only JavaScript. The task will be evaluated on the basis of the following DOM manipulation techniques:'
+p1.innerHTML = 'In this task you have to reproduce this HTML page as is using ' +'<b>only</b>' +' JavaScript. The task will be evaluated on the basis of the following DOM manipulation techniques:'
 document.body.appendChild (p1)
 
 
@@ -53,7 +53,7 @@ ul1.appendChild(li5)
 li5.style.color = 'green'
 
 let li6 = document.createElement ('li')
-li6.innerHTML = 'change classes of the elements (' +'<b>5 points</b>' +');'
+li6.innerHTML = 'change classes of the elements (' +'<b>5 points</b>' +').'
 ul1.appendChild(li6)
 li6.style.color = 'purple'
 document.body.appendChild(ul1)
